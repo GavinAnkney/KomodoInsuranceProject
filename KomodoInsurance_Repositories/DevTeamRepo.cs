@@ -7,23 +7,23 @@ using System.Threading.Tasks;
 
 namespace KomodoInsurance_Repositories
 {
-    class DevTeamRepo
+    public class DevTeamRepo
     {
-        private readonly List<DevTeam> _devTeam = new List<DevTeam>();
+        private readonly List<DevTeam> _devTeam;
 
+        public DevTeamRepo()
+        {
+            _devTeam = new List<DevTeam>();
+        }
+
+        // Create 
+
+        // Read
+
+        // Update
+
+        // Delete
+
+        // Private or "helper" methods
     }
-
-    // CRUD Methods
-
-    // Create
-
-    // Read
-
-    // Update
-
-    // Delete
-
-    // Private or "helper" methods
-
-
 }

@@ -9,21 +9,41 @@ namespace KomodoInsurance_Repositories
 {
     public class DeveloperRepo
     {
-        private readonly List<Developer> _developer = new List<Developer>();
+        private readonly List<Developer> _developer;
+        
+        public DeveloperRepo()
+        {
+            _developer = new List<Developer>();
+        }
 
+        private int _count = 0;
+
+        // Create
+        public void CreateNewDeveloper(Developer developer)
+        {
+            _count++;
+            developer.DevId = _count;
+            _developer.Add(developer);
+        }
+        // Read
+        public List<Developer> ListOfDevelopers()
+        {
+            return _developer;
+        }
+        // Update
+
+        // Delete
+        public void RemoveDeveloper(Developer developer)
+        {
+            foreach (var devPoco in _developer)
+            {
+                if (devPoco == developer)
+                {
+                    _developer.Remove(devPoco);
+                    break;
+                }
+            }
+        }
+        // Private or helper methods
     }
-
-    // CRUD Methods
-
-    // Create
-
-    // Read
-
-    // Update
-
-    // Delete
-
-    // Private or "helper" methods
-
-
 }

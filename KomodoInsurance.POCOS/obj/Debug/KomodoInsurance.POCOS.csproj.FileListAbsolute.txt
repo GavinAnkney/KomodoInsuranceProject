@@ -1,0 +1,6 @@
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.POCOS\bin\Debug\KomodoInsurance.POCOS.dll
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.POCOS\bin\Debug\KomodoInsurance.POCOS.pdb
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.POCOS\obj\Debug\KomodoInsurance.POCOS.csproj.AssemblyReference.cache
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.POCOS\obj\Debug\KomodoInsurance.POCOS.csproj.CoreCompileInputs.cache
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.POCOS\obj\Debug\KomodoInsurance.POCOS.dll
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.POCOS\obj\Debug\KomodoInsurance.POCOS.pdb

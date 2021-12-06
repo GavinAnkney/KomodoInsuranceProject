@@ -55,6 +55,10 @@
       <Project>{0E8F3405-B27D-4CC9-BA49-EFB4C4E21DEB}</Project>
       <Name>KomodoInsurance.POCOS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KomodoInsurance_Repositories\KomodoInsurance_Repositories.csproj">
+      <Project>{5b02bd64-a44c-416f-aadd-6e8d3230a198}</Project>
+      <Name>KomodoInsurance_Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

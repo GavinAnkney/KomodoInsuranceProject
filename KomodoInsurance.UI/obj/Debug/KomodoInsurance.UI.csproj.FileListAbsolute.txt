@@ -1,0 +1,11 @@
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\bin\Debug\KomodoInsurance.UI.exe.config
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\bin\Debug\KomodoInsurance.UI.exe
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\bin\Debug\KomodoInsurance.UI.pdb
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\bin\Debug\KomodoInsurance.POCOS.dll
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\bin\Debug\KomodoInsurance.POCOS.pdb
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.csproj.AssemblyReference.cache
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.csproj.CoreCompileInputs.cache
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.exe
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.pdb
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\bin\Debug\KomodoInsurance_Repositories.dll
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\bin\Debug\KomodoInsurance_Repositories.pdb
