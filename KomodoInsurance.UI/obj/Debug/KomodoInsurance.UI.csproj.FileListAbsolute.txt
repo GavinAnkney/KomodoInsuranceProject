@@ -9,3 +9,4 @@ C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\obj\Debu
 C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.pdb
 C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\bin\Debug\KomodoInsurance_Repositories.dll
 C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\bin\Debug\KomodoInsurance_Repositories.pdb
+C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.csproj.CopyComplete

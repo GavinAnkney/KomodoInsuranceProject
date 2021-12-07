@@ -44,6 +44,11 @@ namespace KomodoInsurance.UI
                         Console.Clear();
                         break;
                     case 2:
+                        DevTeam devTeam = CreateNewDevTeam();
+                        _devTeamRepo.CreateDevTeam(devTeam);
+                        Console.WriteLine("Added new team! Press any key to continue...");
+                        Console.ReadKey();
+                        Console.Clear();
                         break;
                     case 3:
                         ListOfDevs();
@@ -89,13 +94,22 @@ namespace KomodoInsurance.UI
             }
             return developer;
         }
+        private DevTeam CreateNewDevTeam()
+        {
+            DevTeam devTeam = new DevTeam();
+            Console.WriteLine("Please add developers to a team");
+            devTeam.TeamMember = new Developer();           
+            Console.WriteLine("What is your team name? Press enter when done");
+            devTeam.TeamName = Console.ReadLine();
+            return devTeam;
+        }
         private void ListOfDevs()
         {
             Console.WriteLine("Available Developers:\n" +
-                "FirstName\tLastName\tHas Access to Pluralsight");
+                "Dev ID\tFirstName\tLastName\tHas Access to Pluralsight");
             foreach (var developer in  _developerRepo.ListOfDevelopers())
             {
-                Console.WriteLine($"{developer.FirstName}\t{developer.LastName}\t{developer.HasAccessToPluralsight}");
+                Console.WriteLine($"{developer.DevId}\t{developer.FirstName}\t{developer.LastName}\t{developer.HasAccessToPluralsight}");
             }
         }
     }

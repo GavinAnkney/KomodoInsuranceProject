@@ -4,6 +4,5 @@ C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance_Repositorie
 C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance_Repositories\bin\Debug\KomodoInsurance.POCOS.pdb
 C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance_Repositories\obj\Debug\KomodoInsurance_Repositories.csproj.AssemblyReference.cache
 C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance_Repositories\obj\Debug\KomodoInsurance_Repositories.csproj.CoreCompileInputs.cache
-C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance_Repositories\obj\Debug\KomodoInsurance_Repositories.csproj.CopyComplete
 C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance_Repositories\obj\Debug\KomodoInsurance_Repositories.dll
 C:\Users\gmdan\source\repos\Komodo_Insurance_Project\KomodoInsurance_Repositories\obj\Debug\KomodoInsurance_Repositories.pdb

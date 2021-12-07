@@ -16,10 +16,25 @@ namespace KomodoInsurance_Repositories
             _devTeam = new List<DevTeam>();
         }
 
+        private int _count = 0;
+
         // Create 
-
+        public bool CreateDevTeam(DevTeam devTeam)
+        {
+            if(devTeam == null)
+            {
+                return false;
+            }
+            _count++;
+            devTeam.TeamId = _count;
+            _devTeam.Add(devTeam);
+            return true;
+        }
         // Read
-
+        public List<DevTeam> GetDevTeams()
+        {
+            return _devTeam;
+        }
         // Update
 
         // Delete
