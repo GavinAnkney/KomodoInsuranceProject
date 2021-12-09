@@ -28,6 +28,7 @@ namespace KomodoInsurance_Repositories
             _count++;
             devTeam.TeamId = _count;
             _devTeam.Add(devTeam);
+            
             return true;
         }
         // Read
@@ -35,9 +36,6 @@ namespace KomodoInsurance_Repositories
         {
             return _devTeam;
         }
-        // Update
-
-        // Delete
 
         // Private or "helper" methods
     }
