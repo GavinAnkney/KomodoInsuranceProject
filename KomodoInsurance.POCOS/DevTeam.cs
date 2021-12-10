@@ -8,7 +8,7 @@ namespace KomodoInsurance.POCOS
 {
     public class DevTeam
     {
-        public Developer TeamMember { get; set; }
+        public int DevId { get; set; }
         public string TeamName { get; set; }
         public int TeamId { get; set; }
 
@@ -16,11 +16,10 @@ namespace KomodoInsurance.POCOS
         {
         }
 
-        public DevTeam(Developer teamMember, string teamName, int teamId)
+        public DevTeam(int devId, string teamName)
         {
-            TeamMember = teamMember;
+            DevId = devId;
             TeamName = teamName;
-            TeamId = teamId;
         }
     }
 }

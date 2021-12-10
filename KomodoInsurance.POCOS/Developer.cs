@@ -17,12 +17,11 @@ namespace KomodoInsurance.POCOS
         {
         }
 
-        public Developer(string firstName, string lastName, bool hasAccessToPluralsight, int devId)
+        public Developer(string firstName, string lastName, bool hasAccessToPluralsight)
         {
             FirstName = firstName;
             LastName = lastName;
             HasAccessToPluralsight = hasAccessToPluralsight;
-            DevId = devId;
         }
     }
 }

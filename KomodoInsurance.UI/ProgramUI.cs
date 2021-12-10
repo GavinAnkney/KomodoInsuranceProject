@@ -29,9 +29,8 @@ namespace KomodoInsurance.UI
                 $"2. Create New Developer Team \n" +
                 $"3. List of Developers \n" +
                 $"4. List of Teams \n" +
-                $"5. Add Developer To A Team \n" +
-                $"6. Remove Developer From A Team \n" +
-                $"7. Exit App");
+                $"5. Remove Developer From A Team \n" +
+                $"6. Exit App");
             int menuNumber;
             if (int.TryParse(Console.ReadLine(), out menuNumber))
             {
@@ -62,21 +61,22 @@ namespace KomodoInsurance.UI
                         Console.Clear();
                         break;
                     case 5:
+                        RemoveDevFromATeam();
+                        Console.ReadKey();
+                        Console.Clear();
                         break;
                     case 6:
-                        break;
-                    case 7:
                         _isRunning = false;
                         break;
                     default:
-                        Console.WriteLine("Invalid input, please enter number 1-7.");
+                        Console.WriteLine("Invalid input, please enter number 1-6.");
                         Console.ReadKey();
                         break;
                 }
             }
             else
             {
-                Console.WriteLine("Invalid input, please enter number 1-7.");
+                Console.WriteLine("Invalid input, please enter number 1-6.");
                 Console.ReadKey();
                 return;
             }
@@ -105,6 +105,8 @@ namespace KomodoInsurance.UI
             DevTeam devTeam = new DevTeam();
             Console.WriteLine("What is your team name? Press any key to continue...");
             devTeam.TeamName = Console.ReadLine();
+            Console.WriteLine("Please enter the Developer Id's you would like to add. Press any key to continue...");
+            devTeam.DevId = int.Parse(Console.ReadLine());
             return devTeam;
         }
         private void ListOfDevs()
@@ -122,7 +124,22 @@ namespace KomodoInsurance.UI
                 "Team ID\tTeam Name\tDev Team Member");
             foreach (var devTeam in _devTeamRepo.GetDevTeams())
             {
-                Console.WriteLine($"{devTeam.TeamId}\t{devTeam.TeamName}\t{devTeam.TeamMember}");
+                Console.WriteLine($"{devTeam.TeamId}\t{devTeam.TeamName}\t{devTeam.DevId}");
+            }
+        }
+        private void RemoveDevFromATeam()
+        {
+            ListOfDevsTeams();
+            Console.WriteLine("\nEnter the developer Id you would like to remove: ");
+            int input = int.Parse(Console.ReadLine());
+            bool wasDeleted = _devTeamRepo.RemoveDev(input);
+            if (wasDeleted)
+            {
+                Console.WriteLine("The content was successfully deleted.");
+            }
+            else
+            {
+                Console.WriteLine("The content could not be deleted.");
             }
         }
     }
