@@ -121,7 +121,7 @@ namespace KomodoInsurance.UI
         private void ListOfDevsTeams()
         {
             Console.WriteLine("Current Dev Teams: \n" +
-                "Team ID\tTeam Name\tDev Team Member");
+                "Team ID\tTeam Name\tDev Team Member ID");
             foreach (var devTeam in _devTeamRepo.GetDevTeams())
             {
                 Console.WriteLine($"{devTeam.TeamId}\t{devTeam.TeamName}\t{devTeam.DevId}");
